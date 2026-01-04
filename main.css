@@ -222,7 +222,10 @@
   .nav__link {
     transition: var(--transition);
   }
-  
+    .nav_link:active {
+        bg-color: white;
+    }
+
   .nav__link:hover {
     color: var(--color-primary);
   }
@@ -744,4 +747,5 @@
     .footer__wrapper {
       grid-template-columns: repeat(3, 1fr);
     }
+
   }
